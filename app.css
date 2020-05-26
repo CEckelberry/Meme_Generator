@@ -1,0 +1,125 @@
+label {
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+form {
+	background-color: rgb(163, 163, 163);
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+}
+h2 {
+	text-align: center;
+	font-size: 35px;
+}
+
+/* #submitButton {
+	border-radius: 1.5%;
+	background-color: rgb(32, 118, 218);
+	block-size: 35px;
+} */
+
+#submitButton {
+	background-color: #2d9ccf;
+	border-color: rgba(0, 0, 0, 0.3);
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+	color: #fff;
+	block-size: 35px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	bottom: -45px;
+	left: 115px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#submitButton:hover {
+	background-color: #4f87a2;
+	border-color: rgba(0, 0, 0, 0.5);
+}
+
+#submitButton:active {
+	background-color: #3c677b;
+	border-color: rgba(0, 0, 0, 0.9);
+}
+
+body {
+	font-family: 'Roboto Slab', serif;
+}
+
+img {
+	height: 400px;
+	width: 400px;
+	position: relative;
+	z-index: -1;
+}
+
+.container {
+	position: relative;
+	display: inline-block;
+	margin: 30px;
+}
+
+.memeTextUpper {
+	position: absolute;
+	top: -35px;
+	left: 5px;
+	color: white;
+	font-size: 35px;
+	max-width: 400px;
+	text-align: center;
+}
+
+.memeTextLower {
+	position: absolute;
+	bottom: 05px;
+	left: 5px;
+	color: white;
+	font-size: 35px;
+	max-width: 400px;
+	text-align: center;
+}
+/* 
+.button {
+	border-radius: 1.5%;
+	background-color: rgb(32, 118, 218);
+	position: absolute;
+	block-size: 35px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	bottom: -45px;
+	left: 115px;
+	margin-top: 10px;
+	text-align: center;
+} */
+
+/* Everything Below is from cssdeck for the button styling
+ http://cssdeck.com/labs/purely-css */
+
+.button {
+	background-color: #2d9ccf;
+	border-color: rgba(0, 0, 0, 0.3);
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+	color: #fff;
+	position: absolute;
+	block-size: 35px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	bottom: -45px;
+	left: 115px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.button:hover {
+	background-color: #4f87a2;
+	border-color: rgba(0, 0, 0, 0.5);
+}
+
+.button:active {
+	background-color: #3c677b;
+	border-color: rgba(0, 0, 0, 0.9);
+}

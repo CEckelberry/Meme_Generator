@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <h1>Meme Generator</h1>
+    <h2>Make all the memes!!</h2>
+    <form action="" id="memeForm">
+        <p>            
+            <label for="">Image URL: 
+            <input type="text" placeholder="What is the URL for your meme image?" name="image-url">
+            </label>
+        </p>
+        <p>            
+            <label for="">Text on Top:  
+            <input type="text" placeholder="(Optional) What text do you want on the top of the image\meme?" name="top-text">
+            </label>
+        </p>
+        <p>            
+            <label for="">Text on Bottom:   
+            <input type="text" placeholder="(Optional) What text do you want on the bottom of the image\meme?" name="bottom-text">
+            </label>
+        </p>
+        <input type="submit" value="Add Dank Meme" id="submitButton">
+    </form>
+    <section id="results"></section>
+    <script src="app.js"></script>
+</body>
+</html>
